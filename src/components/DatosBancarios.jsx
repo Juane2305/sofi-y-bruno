@@ -41,6 +41,25 @@ const DatosBancarios = ({texto, claseContenedor, claseBoton, borderModal, textCo
             numero_cuenta={numero_cuenta} 
             titular_extranjera={titular_extranjera} 
             banco_extranjera={banco_extranjera}/>
+
+          <div className="mt-10 text-center max-w-md space-y-4 flex flex-col items-center" data-aos="fade-up">
+
+            <p className="text-lg text-white px-3">
+              También podés elegir algo especial aquí:
+            </p>
+
+          <div className='bg-white rounded-2xl w-72  py-3'>
+            <a 
+              href="https://www.instagram.com/latuacasadeco/"
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 text-xl font-semibold text-gray-800 transition-colors"
+            >
+              <img src="https://res.cloudinary.com/dfschbyq2/image/upload/v1759587922/pngtree-instagram-icon-png-image_6315974_d9ahmk.png" alt="" className='size-8'/>
+              @latuacasadeco
+            </a>
+          </div>
+          </div>
         </div>
     </div>
   )

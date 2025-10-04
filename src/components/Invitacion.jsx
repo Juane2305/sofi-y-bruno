@@ -133,7 +133,7 @@ const Invitacion = () => {
             preparados para ti, porque quiero compartir contigo este día tan
             significativo.
           </p>
-          <p className="text-base md:text-lg italic text-gray-600">
+          <p className="text-base md:text-lg italic text-gray-800">
             Por eso, te pido por favor confirmar tu asistencia antes del{" "}
             <span className="font-semibold">10-12-25</span>, ya que tu respuesta
             me ayudará a organizar mejor y dar oportunidad a alguien más en caso

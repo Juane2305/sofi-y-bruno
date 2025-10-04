@@ -2,7 +2,7 @@ import React from 'react'
 import instagram from '../assets/praga/instagram.json'
 import Lottie from 'react-lottie-player';
 
-const InstagramWall = ({userClass, textClass, logoClass, user}) => {
+const InstagramWall = ({userClass, textClass, user}) => {
 
   const instagramUser = user.replace(/^@/, "");
 
