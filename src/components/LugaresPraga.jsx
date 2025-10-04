@@ -57,7 +57,7 @@ const LugaresPraga = ({
               />
             </div>
             <h3 className="text-xl font-semibold tracking-wider">
-              {linkCivil && linkCivil.trim() !== "" ? "CEREMONIA Y FIESTA" : "FIESTA"}
+              {linkCivil && linkCivil.trim() !== "" ? "CEREMONIA Y FIESTA" : "FIESTA Y CIVIL"}
             </h3>
             <p className="font-light">
               {linkCivil && linkCivil.trim() !== ""
